@@ -103,3 +103,429 @@
 [2025-03-05 23:26:27] Result from {CA1MDLIDATA2406}: Script executed successfully on CA1MDLIDATA2406
 [2025-03-05 23:26:27] Distributed processing completed
 [2025-03-05 23:26:27] Cleaning up background jobs
+[2025-03-06 02:45:07] === Starting distributed processing setup ===
+[2025-03-06 02:45:07] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 02:45:07] Setting up Python environments on target machines...
+[2025-03-06 02:45:07] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 02:45:07] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 02:45:07] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 02:45:45] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 02:45:45] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 02:45:45] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 02:45:45] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 02:45:46] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 02:46:23] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 02:46:23] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 02:46:23] Distributing CSV data to machines...
+[2025-03-06 02:46:24] Distributing 2472 rows across 2 machines
+[2025-03-06 02:46:24] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 02:46:24] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 02:46:24] Executing script on machines...
+[2025-03-06 02:46:24] Copied script and config to CA1MDLIDATA2408
+[2025-03-06 02:46:24] Copied script and config to CA1MDLIDATA2406
+[2025-03-06 02:46:26] Result from {CA1MDLIDATA2408}: Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 02:46:26] Result from {CA1MDLIDATA2406}: Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 02:46:26] Distributed processing completed
+[2025-03-06 02:46:26] Cleaning up background jobs
+[2025-03-06 02:50:01] === Starting distributed processing setup ===
+[2025-03-06 02:50:01] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 02:50:01] Setting up Python environments on target machines...
+[2025-03-06 02:50:01] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 02:50:01] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 02:50:02] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 02:50:40] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 02:50:40] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 02:50:40] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 02:50:40] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 02:50:41] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 02:51:19] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 02:51:19] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 02:51:19] Distributing CSV data to machines...
+[2025-03-06 02:51:19] Distributing 2472 rows across 2 machines
+[2025-03-06 02:51:19] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 02:51:19] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 02:51:19] Executing script on machines...
+[2025-03-06 02:51:19] Copied script and config to CA1MDLIDATA2408
+[2025-03-06 02:51:19] Copied script and config to CA1MDLIDATA2406
+[2025-03-06 02:51:21] Result from {CA1MDLIDATA2408}: Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 02:51:21] Result from {CA1MDLIDATA2406}: Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 02:51:21] Distributed processing completed
+[2025-03-06 02:51:22] Cleaning up background jobs
+[2025-03-06 02:54:07] === Starting distributed processing setup ===
+[2025-03-06 02:54:07] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 02:54:07] Setting up Python environments on target machines...
+[2025-03-06 02:54:07] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 02:54:08] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 02:54:08] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 02:54:46] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 02:54:46] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 02:54:46] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 02:54:46] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 02:54:47] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 02:55:24] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 02:55:24] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 02:55:24] Distributing CSV data to machines...
+[2025-03-06 02:55:25] Distributing 2472 rows across 2 machines
+[2025-03-06 02:55:25] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 02:55:25] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 02:55:25] Executing script on machines...
+[2025-03-06 02:55:25] Copied script and config to CA1MDLIDATA2408
+[2025-03-06 02:55:25] Copied script and config to CA1MDLIDATA2406
+[2025-03-06 02:55:27] Result from {CA1MDLIDATA2408}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv and saved first row to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2408_20250306025527.csv Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 02:55:27] Result from {CA1MDLIDATA2406}: Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 02:55:27] Distributed processing completed
+[2025-03-06 02:55:27] Cleaning up background jobs
+[2025-03-06 02:58:38] === Starting distributed processing setup ===
+[2025-03-06 02:58:38] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 02:58:38] Setting up Python environments on target machines...
+[2025-03-06 02:58:38] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 02:58:38] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 02:58:39] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 02:59:16] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 02:59:16] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 02:59:16] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 02:59:16] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 02:59:17] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 02:59:55] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 02:59:55] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 02:59:55] Distributing CSV data to machines...
+[2025-03-06 02:59:55] Distributing 2472 rows across 2 machines
+[2025-03-06 02:59:55] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 02:59:56] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 02:59:56] Executing script on machines...
+[2025-03-06 02:59:56] Copied script and config to CA1MDLIDATA2408
+[2025-03-06 02:59:56] Copied script and config to CA1MDLIDATA2406
+[2025-03-06 02:59:58] Result from {CA1MDLIDATA2408}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv and saved first row to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2408_20250306025957.csv Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 02:59:58] Result from {CA1MDLIDATA2406}: Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 02:59:58] Distributed processing completed
+[2025-03-06 02:59:58] Cleaning up background jobs
+[2025-03-06 03:05:01] === Starting distributed processing setup ===
+[2025-03-06 03:05:01] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 03:05:01] Setting up Python environments on target machines...
+[2025-03-06 03:05:01] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 03:05:01] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 03:05:01] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 03:05:40] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 03:05:40] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 03:05:40] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 03:05:40] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 03:05:41] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 03:06:18] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 03:06:18] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 03:06:18] Distributing CSV data to machines...
+[2025-03-06 03:06:18] Distributing 2472 rows across 2 machines
+[2025-03-06 03:06:18] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 03:06:18] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 03:06:19] Executing script on machines...
+[2025-03-06 03:06:19] Copied script and config to CA1MDLIDATA2408
+[2025-03-06 03:06:19] Copied script and config to CA1MDLIDATA2406
+[2025-03-06 03:06:21] Result from {CA1MDLIDATA2408}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv and saved first row to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2408_20250306030620.csv Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 03:06:21] Result from {CA1MDLIDATA2406}: Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 03:06:21] Distributed processing completed
+[2025-03-06 03:06:21] Cleaning up background jobs
+[2025-03-06 03:10:49] === Starting distributed processing setup ===
+[2025-03-06 03:10:49] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 03:10:49] Setting up Python environments on target machines...
+[2025-03-06 03:10:49] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 03:10:50] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 03:10:50] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 03:11:28] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 03:11:28] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 03:11:28] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 03:11:28] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 03:11:29] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 03:12:06] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 03:12:06] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 03:12:06] Distributing CSV data to machines...
+[2025-03-06 03:12:06] Distributing 2472 rows across 2 machines
+[2025-03-06 03:12:06] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 03:12:07] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 03:12:07] Executing script on machines...
+[2025-03-06 03:12:07] Copied script and config to CA1MDLIDATA2408
+[2025-03-06 03:12:07] Copied script and config to CA1MDLIDATA2406
+[2025-03-06 03:12:09] Result from {CA1MDLIDATA2408}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv and saved first row to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2408_20250306031209.csv Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 03:12:09] Result from {CA1MDLIDATA2406}: Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 03:12:09] Distributed processing completed
+[2025-03-06 03:12:09] Cleaning up background jobs
+[2025-03-06 20:55:04] === Starting distributed processing setup ===
+[2025-03-06 20:55:04] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 20:55:04] Setting up Python environments on target machines...
+[2025-03-06 20:55:04] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 20:55:04] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 20:55:04] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 20:55:42] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 20:55:42] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 20:55:42] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 20:55:42] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 20:55:43] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 20:56:20] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 20:56:20] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 20:56:20] Distributing CSV data to machines...
+[2025-03-06 20:56:20] Distributing 2472 rows across 2 machines
+[2025-03-06 20:56:21] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 20:56:21] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 20:56:21] Executing script on machines...
+[2025-03-06 20:56:21] Copied script and config to CA1MDLIDATA2408
+[2025-03-06 20:56:21] Copied script and config to CA1MDLIDATA2406
+[2025-03-06 20:56:23] Result from {CA1MDLIDATA2408}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv and saved first row to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2408_20250306205623.csv Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 20:56:23] Result from {CA1MDLIDATA2406}: Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 20:56:23] Distributed processing completed
+[2025-03-06 20:56:23] Cleaning up background jobs
+[2025-03-06 21:01:46] === Starting distributed processing setup ===
+[2025-03-06 21:01:46] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 21:01:46] Setting up Python environments on target machines...
+[2025-03-06 21:01:46] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 21:01:46] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 21:01:46] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 21:02:24] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 21:02:24] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 21:02:24] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 21:02:24] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 21:02:24] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 21:03:02] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 21:03:02] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 21:03:02] Distributing CSV data to machines...
+[2025-03-06 21:03:02] Distributing 2472 rows across 2 machines
+[2025-03-06 21:03:02] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 21:03:02] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 21:03:02] Executing script on machines...
+[2025-03-06 21:03:02] Copied script and config to CA1MDLIDATA2408
+[2025-03-06 21:03:02] Copied script and config to CA1MDLIDATA2406
+[2025-03-06 21:03:04] Result from {CA1MDLIDATA2408}: Machine: CA1MDLIDATA2408 CSV Path: D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv Output Directory: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out Attempting to write to: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2408_20250306210304.csv Successfully wrote to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2408_20250306210304.csv Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv and attempted to save first row to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2408_20250306210304.csv Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 21:03:04] Result from {CA1MDLIDATA2406}: Machine: CA1MDLIDATA2406 CSV Path: D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv Output Directory: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out Attempting to write to: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2406_20250306210304.csv Error writing to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2406_20250306210304.csv: [WinError 5] Access is denied: '\\\\CA1MDLIDATA2408\\D$\\' Alternative method also failed: [Errno 13] Permission denied: '\\\\CA1MDLIDATA2408\\D$\\RISHIN\\framework_for_uni_py\\SETUP_WORK\\temp\\out\\output_CA1MDLIDATA2406_20250306210304.csv' Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv and attempted to save first row to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2406_20250306210304.csv Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 21:03:04] Distributed processing completed
+[2025-03-06 21:03:04] Cleaning up background jobs
+[2025-03-06 21:10:40] === Starting distributed processing setup ===
+[2025-03-06 21:10:40] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 21:10:40] Setting up Python environments on target machines...
+[2025-03-06 21:10:40] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 21:10:40] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 21:10:40] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 21:11:18] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 21:11:18] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 21:11:18] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 21:11:18] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 21:11:18] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 21:11:56] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 21:11:56] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 21:11:56] Distributing CSV data to machines...
+[2025-03-06 21:11:56] Distributing 2472 rows across 2 machines
+[2025-03-06 21:11:56] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 21:11:56] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 21:11:56] Executing script on machines...
+[2025-03-06 21:11:58] Created directory: \\APPLE\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out
+[2025-03-06 21:11:58] Critical error in distributed processing: You cannot call a method on a null-valued expression.
+[2025-03-06 21:11:58] Cleaning up background jobs
+[2025-03-06 21:15:58] === Starting distributed processing setup ===
+[2025-03-06 21:15:58] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 21:15:58] Setting up Python environments on target machines...
+[2025-03-06 21:15:58] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 21:15:58] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 21:15:59] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 21:16:37] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 21:16:37] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 21:16:37] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 21:16:37] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 21:16:37] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 21:17:15] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 21:17:15] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 21:17:15] Distributing CSV data to machines...
+[2025-03-06 21:17:15] Distributing 2472 rows across 2 machines
+[2025-03-06 21:17:15] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 21:17:15] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 21:17:15] Executing script on machines...
+[2025-03-06 21:17:15] Set 'Everyone' permissions on shared output directory: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out
+[2025-03-06 21:17:15] Copied script and updated config for CA1MDLIDATA2408
+[2025-03-06 21:17:15] Copied script and updated config for CA1MDLIDATA2406
+[2025-03-06 21:17:17] Result from {CA1MDLIDATA2408}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv and saved first row to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2408_20250306211717.csv Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 21:17:17] Result from {CA1MDLIDATA2406}: Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 21:17:17] Distributed processing completed
+[2025-03-06 21:17:17] Cleaning up background jobs
+[2025-03-06 22:15:18] === Starting distributed processing setup ===
+[2025-03-06 22:15:18] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 22:15:18] Setting up Python environments on target machines...
+[2025-03-06 22:15:18] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 22:15:18] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 22:15:18] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 22:15:56] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 22:15:56] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 22:15:56] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 22:15:56] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 22:15:57] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 22:16:34] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 22:16:34] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 22:16:34] Distributing CSV data to machines...
+[2025-03-06 22:16:34] Distributing 2472 rows across 2 machines
+[2025-03-06 22:16:34] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 22:16:35] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 22:16:35] Executing script on machines...
+[2025-03-06 22:16:35] Set 'Everyone' permissions on shared output directory: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out
+[2025-03-06 22:16:35] Copied script and updated config for CA1MDLIDATA2408
+[2025-03-06 22:16:35] Copied script and updated config for CA1MDLIDATA2406
+[2025-03-06 22:16:37] Result from {CA1MDLIDATA2408}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv and saved first row to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2408_20250306221636.csv Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 22:16:37] Result from {CA1MDLIDATA2406}: Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 22:16:37] Distributed processing completed
+[2025-03-06 22:16:37] Cleaning up background jobs
+[2025-03-06 22:18:33] === Starting distributed processing setup ===
+[2025-03-06 22:18:33] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 22:18:33] Setting up Python environments on target machines...
+[2025-03-06 22:18:33] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 22:18:33] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 22:18:34] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 22:19:12] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 22:19:12] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 22:19:12] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 22:19:12] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 22:19:12] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 22:19:50] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 22:19:50] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 22:19:50] Distributing CSV data to machines...
+[2025-03-06 22:19:50] Distributing 2472 rows across 2 machines
+[2025-03-06 22:19:50] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 22:19:50] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 22:19:50] Executing script on machines...
+[2025-03-06 22:19:50] Created directory: \D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out
+[2025-03-06 22:19:50] Set 'Everyone' permissions on shared output directory: \D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out
+[2025-03-06 22:19:50] Copied script and updated config for CA1MDLIDATA2408
+[2025-03-06 22:19:50] Copied script and updated config for CA1MDLIDATA2406
+[2025-03-06 22:19:52] Result from {CA1MDLIDATA2408}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv and saved first row to \D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2408_20250306221952.csv Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 22:19:52] Result from {CA1MDLIDATA2406}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv and saved first row to \D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2406_20250306221952.csv Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 22:19:52] Distributed processing completed
+[2025-03-06 22:19:52] Cleaning up background jobs
+[2025-03-06 22:26:57] === Starting distributed processing setup ===
+[2025-03-06 22:26:57] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 22:26:57] Setting up Python environments on target machines...
+[2025-03-06 22:26:57] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 22:26:57] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 22:26:57] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 22:27:35] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 22:27:35] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 22:27:35] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 22:27:35] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 22:27:36] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 22:28:13] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 22:28:13] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 22:28:13] Distributing CSV data to machines...
+[2025-03-06 22:28:13] Distributing 2472 rows across 2 machines
+[2025-03-06 22:28:13] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 22:28:14] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 22:28:14] Executing script on machines...
+[2025-03-06 22:28:14] Set 'Everyone' permissions on shared output directory: \D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out
+[2025-03-06 22:28:14] Copied script and updated config for CA1MDLIDATA2408
+[2025-03-06 22:28:14] Copied script and updated config for CA1MDLIDATA2406
+[2025-03-06 22:28:16] Result from {CA1MDLIDATA2408}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv and saved first row to \D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2408_20250306222815.csv Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 22:28:16] Result from {CA1MDLIDATA2406}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv and saved first row to \D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2406_20250306222816.csv Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 22:28:16] Distributed processing completed
+[2025-03-06 22:28:16] Cleaning up background jobs
+[2025-03-06 22:31:54] === Starting distributed processing setup ===
+[2025-03-06 22:31:54] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 22:31:54] Setting up Python environments on target machines...
+[2025-03-06 22:31:54] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 22:31:54] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 22:31:55] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 22:32:33] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 22:32:33] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 22:32:33] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 22:32:33] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 22:32:33] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 22:33:07] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 22:33:07] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 22:33:07] Distributing CSV data to machines...
+[2025-03-06 22:33:07] Distributing 2472 rows across 2 machines
+[2025-03-06 22:33:07] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 22:33:07] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 22:33:07] Executing script on machines...
+[2025-03-06 22:33:07] Set 'Everyone' permissions on shared output directory: \D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out
+[2025-03-06 22:33:07] Copied script and updated config for CA1MDLIDATA2408
+[2025-03-06 22:33:07] Copied script and updated config for CA1MDLIDATA2406
+[2025-03-06 22:33:09] Result from {CA1MDLIDATA2408}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv and saved first row to \D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2408_20250306223309.csv Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 22:33:09] Result from {CA1MDLIDATA2406}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv and saved first row to \D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2406_20250306223309.csv Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 22:33:09] Distributed processing completed
+[2025-03-06 22:33:09] Cleaning up background jobs
+[2025-03-06 22:34:49] === Starting distributed processing setup ===
+[2025-03-06 22:34:49] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 22:34:49] Setting up Python environments on target machines...
+[2025-03-06 22:34:49] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 22:34:49] Error setting up Python on CA1MDLIDATA2408: The given path's format is not supported.
+[2025-03-06 22:34:49] Python setup on CA1MDLIDATA2408 completed with result: False
+[2025-03-06 22:34:49] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 22:34:49] Error setting up Python on CA1MDLIDATA2406: The given path's format is not supported.
+[2025-03-06 22:34:49] Python setup on CA1MDLIDATA2406 completed with result: False
+[2025-03-06 22:34:49] WARNING: Python setup failed on one or more machines, proceeding anyway
+[2025-03-06 22:34:49] Distributing CSV data to machines...
+[2025-03-06 22:34:49] Distributing 2472 rows across 2 machines
+[2025-03-06 22:34:49] Error distributing CSV rows: The given path's format is not supported.
+[2025-03-06 22:34:49] Critical error in distributed processing: Failed to distribute CSV data
+[2025-03-06 22:34:49] Cleaning up background jobs
+[2025-03-06 22:40:49] === Starting distributed processing setup ===
+[2025-03-06 22:40:49] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 22:40:49] Setting up Python environments on target machines...
+[2025-03-06 22:40:49] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 22:40:49] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 22:40:50] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 22:41:28] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 22:41:28] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 22:41:28] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 22:41:28] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 22:41:28] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 22:42:05] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 22:42:05] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 22:42:05] Distributing CSV data to machines...
+[2025-03-06 22:42:06] Distributing 2472 rows across 2 machines
+[2025-03-06 22:42:06] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 22:42:06] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 22:42:06] Executing script on machines...
+[2025-03-06 22:42:06] Copied script and config to CA1MDLIDATA2408
+[2025-03-06 22:42:06] Copied script and config to CA1MDLIDATA2406
+[2025-03-06 22:42:08] Result from {CA1MDLIDATA2408}: Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 22:42:08] Result from {CA1MDLIDATA2406}: Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 22:42:08] Distributed processing completed
+[2025-03-06 22:42:08] Cleaning up background jobs
+[2025-03-06 23:02:28] === Starting distributed processing setup ===
+[2025-03-06 23:02:28] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 23:02:28] Setting up Python environments on target machines...
+[2025-03-06 23:02:28] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 23:02:28] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 23:02:29] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 23:03:07] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 23:03:07] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 23:03:07] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 23:03:07] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 23:03:07] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 23:03:44] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 23:03:44] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 23:03:45] Distributing CSV data to machines...
+[2025-03-06 23:03:45] Distributing 2472 rows across 2 machines
+[2025-03-06 23:03:45] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 23:03:45] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 23:03:45] Executing script on machines...
+[2025-03-06 23:03:45] Copied script and config to CA1MDLIDATA2408
+[2025-03-06 23:03:45] Copied script and config to CA1MDLIDATA2406
+[2025-03-06 23:03:47] Result from {CA1MDLIDATA2408}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv and saved first row to D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2408_20250306230347.csv Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 23:03:47] Result from {CA1MDLIDATA2406}: Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 23:03:47] Distributed processing completed
+[2025-03-06 23:03:47] Cleaning up background jobs
+[2025-03-06 23:09:11] === Starting distributed processing setup ===
+[2025-03-06 23:09:11] Target machines: CA1MDLIDATA2408, CA1MDLIDATA2406
+[2025-03-06 23:09:11] Setting up Python environments on target machines...
+[2025-03-06 23:09:11] Starting Python setup on CA1MDLIDATA2408
+[2025-03-06 23:09:11] Copied requirements file to CA1MDLIDATA2408
+[2025-03-06 23:09:11] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-06 23:09:49] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 23:09:49] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-06 23:09:49] Starting Python setup on CA1MDLIDATA2406
+[2025-03-06 23:09:49] Copied requirements file to CA1MDLIDATA2406
+[2025-03-06 23:09:49] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-06 23:10:27] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Installing collected packages: pytz, tzdata, six, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 python-dateutil-2.9.0.post0 pytz-2025.1 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-06 23:10:27] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-06 23:10:27] Distributing CSV data to machines...
+[2025-03-06 23:10:27] Distributing 2472 rows across 2 machines
+[2025-03-06 23:10:27] Distributed 1236 CSV rows for CA1MDLIDATA2408 to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv
+[2025-03-06 23:10:28] Distributed 1236 CSV rows for CA1MDLIDATA2406 to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv
+[2025-03-06 23:10:28] Executing script on machines...
+[2025-03-06 23:10:28] Copied script and config to CA1MDLIDATA2408
+[2025-03-06 23:10:28] Copied script and config to CA1MDLIDATA2406
+[2025-03-06 23:10:30] Result from {CA1MDLIDATA2408}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2408.csv and saved first row to D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2408_20250306231029.csv Script executed successfully on CA1MDLIDATA2408
+[2025-03-06 23:10:30] Result from {CA1MDLIDATA2406}: Processed D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\split_data_CA1MDLIDATA2406.csv and saved first row to D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out\output_CA1MDLIDATA2406_20250306231030.csv Script executed successfully on CA1MDLIDATA2406
+[2025-03-06 23:10:30] Distributed processing completed
+[2025-03-06 23:10:30] Cleaning up background jobs

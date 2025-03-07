@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Load configuration
 config = configparser.ConfigParser()
-config.read(r"\\ca1mdlidata2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\config.ini")
+config.read(r"D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\config.ini")
 
 # Get machine name
 machine_name = socket.gethostname()
@@ -34,4 +34,3 @@ if not df.empty:
     print(f"Processed {split_csv_path} and saved first row to {output_path}")
 else:
     print(f"Warning: {split_csv_path} is empty. No data processed.")
-
