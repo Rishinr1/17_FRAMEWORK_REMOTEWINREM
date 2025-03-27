@@ -1,6 +1,6 @@
 # Define parameters
 $machines = Get-Content "\\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\machine_list.txt"  # List of target machines
-$pythonInstaller = "https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe"
+$pythonInstaller = "https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe" #python version to be installed 
 $baseDir = "D$\RISHIN\framework_for_uni_py\SETUP_WORK"  # Base directory on each machine
 $tempDirName = "temp" # Temporary directory name
 $scriptPath = "\\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\sample_backup_4.py"

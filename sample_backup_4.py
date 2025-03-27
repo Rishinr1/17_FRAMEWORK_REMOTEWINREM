@@ -19,8 +19,8 @@ if not os.path.exists(csv_path):
 
 df2 = pd.read_csv(csv_path)
 
-#output_dir = config["DATA"]["output_directory"]
-output_dir=r"D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out"
+output_dir = config["DATA"]["output_directory"]
+#output_dir=r"D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\out"
 # Ensure output directory exists
 os.makedirs(output_dir, exist_ok=True)
 # Example usage of the loaded data
