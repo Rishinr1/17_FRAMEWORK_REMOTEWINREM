@@ -3249,3 +3249,460 @@ at <ScriptBlock>, <No file>: line 1
 [2025-03-26 22:59:46] True
 [2025-03-26 22:59:46] Virtual environment cleanup completed
 [2025-03-26 22:59:46] Virtual environment cleanup process completed
+[2025-03-26 23:05:16] === Starting distributed processing setup ===
+[2025-03-26 23:05:16] Target machines: CA1MDLIDATA2406, CA1MDLIDATA2408
+[2025-03-26 23:05:16] Setting up Python environments on target machines...
+[2025-03-26 23:05:16] Starting Python setup on CA1MDLIDATA2406
+[2025-03-26 23:05:16] Copied requirements file to CA1MDLIDATA2406
+[2025-03-26 23:05:17] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-26 23:05:53] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-26 23:05:53] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-26 23:05:53] Starting Python setup on CA1MDLIDATA2408
+[2025-03-26 23:05:53] Copied requirements file to CA1MDLIDATA2408
+[2025-03-26 23:05:54] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-26 23:06:30] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-26 23:06:31] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-26 23:06:31] Copying FileA and FolderB to destination path on machines...
+[2025-03-26 23:06:31] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-26 23:06:31] 
+[2025-03-26 23:06:31] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-03-26 23:06:31] Robocopy completed with exit code: 1
+[2025-03-26 23:06:31] Completed copying to CA1MDLIDATA2406 at \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-26 23:06:31] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-26 23:06:32] 
+[2025-03-26 23:06:32] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-03-26 23:06:32] Robocopy completed with exit code: 0
+[2025-03-26 23:06:32] Completed copying to CA1MDLIDATA2408 at \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-26 23:06:32] Distributing FolderC subfolders across machines...
+[2025-03-26 23:06:32] Distributing 2 subfolders from FolderC across 2 machines
+[2025-03-26 23:06:32] Ensuring remote directory exists on CA1MDLIDATA2406...
+[2025-03-26 23:06:32] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-03-26 23:06:32] 
+[2025-03-26 23:06:32] Copying folder rrscc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part1\rrscc to CA1MDLIDATA2406
+[2025-03-26 23:06:33] Successfully copied folder rrscc to CA1MDLIDATA2406
+[2025-03-26 23:06:33] Ensuring remote directory exists on CA1MDLIDATA2408...
+[2025-03-26 23:06:33] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-03-26 23:06:34] 
+[2025-03-26 23:06:34] Copying folder fkksdmkdc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part2\fkksdmkdc to CA1MDLIDATA2408
+[2025-03-26 23:06:35] Successfully copied folder fkksdmkdc to CA1MDLIDATA2408
+[2025-03-26 23:06:35] Executing script on machines...
+[2025-03-26 23:06:35] Copied script and config to CA1MDLIDATA2406
+[2025-03-26 23:06:35] Copied script and config to CA1MDLIDATA2408
+[2025-03-26 23:06:37] Result from CA1MDLIDATA2406: Script executed successfully on CA1MDLIDATA2406
+[2025-03-26 23:06:37] Result from CA1MDLIDATA2408: Script executed successfully on CA1MDLIDATA2408
+[2025-03-26 23:06:37] Distributed processing completed
+[2025-03-26 23:06:37] Cleaning up background jobs
+[2025-03-26 23:06:37] Attempting to remove virtual environment
+[2025-03-26 23:06:37] Base Directory: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp'
+[2025-03-26 23:06:37] VenvDir Name: 'venv'
+[2025-03-26 23:06:37] Full VenvPath: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:06:37] Virtual environment path found: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:06:37] Starting virtual environment cleanup...
+[2025-03-26 23:06:37] Virtual Environment Path: D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv
+[2025-03-26 23:06:42] Detailed Cleanup Result for {CA1MDLIDATA2406}:
+[2025-03-26 23:06:42] Debug: Attempting to remove virtual environment
+[2025-03-26 23:06:42] Debug: Machine Name: CA1MDLIDATA2406
+[2025-03-26 23:06:42] Debug: Provided VenvPath: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:06:42] Debug: Expanded Path: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:06:42] Successfully removed virtual environment at 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:06:42] True
+[2025-03-26 23:06:46] Detailed Cleanup Result for {CA1MDLIDATA2408}:
+[2025-03-26 23:06:46] Debug: Attempting to remove virtual environment
+[2025-03-26 23:06:46] Debug: Machine Name: CA1MDLIDATA2408
+[2025-03-26 23:06:47] Debug: Provided VenvPath: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:06:47] Debug: Expanded Path: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:06:47] Successfully removed virtual environment at 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:06:47] True
+[2025-03-26 23:06:47] Virtual environment cleanup completed
+[2025-03-26 23:06:47] Virtual environment cleanup process completed
+[2025-03-26 23:33:23] === Starting distributed processing setup ===
+[2025-03-26 23:33:23] Target machines: CA1MDLIDATA2406, CA1MDLIDATA2408
+[2025-03-26 23:33:23] Setting up Python environments on target machines...
+[2025-03-26 23:33:23] Starting Python setup on CA1MDLIDATA2406
+[2025-03-26 23:33:23] Copied requirements file to CA1MDLIDATA2406
+[2025-03-26 23:33:24] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-26 23:34:00] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-26 23:34:00] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-26 23:34:00] Starting Python setup on CA1MDLIDATA2408
+[2025-03-26 23:34:00] Copied requirements file to CA1MDLIDATA2408
+[2025-03-26 23:34:00] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-26 23:34:37] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-26 23:34:37] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-26 23:34:37] Copying FileA and FolderB to destination path on machines...
+[2025-03-26 23:34:37] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-26 23:34:38] 
+[2025-03-26 23:34:38] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-03-26 23:34:38] Robocopy completed with exit code: 1
+[2025-03-26 23:34:38] Completed copying to CA1MDLIDATA2406 at \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-26 23:34:38] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-26 23:34:38] 
+[2025-03-26 23:34:38] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-03-26 23:34:38] Robocopy completed with exit code: 0
+[2025-03-26 23:34:38] Completed copying to CA1MDLIDATA2408 at \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-26 23:34:38] Distributing FolderC subfolders across machines...
+[2025-03-26 23:34:38] Distributing 2 subfolders from FolderC across 2 machines
+[2025-03-26 23:34:38] Ensuring remote directory exists on CA1MDLIDATA2406...
+[2025-03-26 23:34:38] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-03-26 23:34:39] 
+[2025-03-26 23:34:39] Copying folder rrscc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part1\rrscc to CA1MDLIDATA2406
+[2025-03-26 23:34:40] Successfully copied folder rrscc to CA1MDLIDATA2406
+[2025-03-26 23:34:40] Ensuring remote directory exists on CA1MDLIDATA2408...
+[2025-03-26 23:34:40] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-03-26 23:34:41] 
+[2025-03-26 23:34:41] Copying folder fkksdmkdc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part2\fkksdmkdc to CA1MDLIDATA2408
+[2025-03-26 23:34:42] Successfully copied folder fkksdmkdc to CA1MDLIDATA2408
+[2025-03-26 23:34:42] Executing script on machines...
+[2025-03-26 23:34:42] Copied script and config to CA1MDLIDATA2406
+[2025-03-26 23:34:42] Copied script and config to CA1MDLIDATA2408
+[2025-03-26 23:34:44] Result from CA1MDLIDATA2406: Script executed successfully on CA1MDLIDATA2406
+[2025-03-26 23:34:44] Result from CA1MDLIDATA2408: Script executed successfully on CA1MDLIDATA2408
+[2025-03-26 23:34:44] Distributed processing completed
+[2025-03-26 23:34:44] Cleaning up background jobs
+[2025-03-26 23:34:44] Attempting to remove virtual environment
+[2025-03-26 23:34:44] Base Directory: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp'
+[2025-03-26 23:34:44] VenvDir Name: 'venv'
+[2025-03-26 23:34:44] Full VenvPath: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:34:44] Virtual environment path found: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:34:44] Starting virtual environment cleanup...
+[2025-03-26 23:34:44] Virtual Environment Path: D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv
+[2025-03-26 23:34:49] Detailed Cleanup Result for {CA1MDLIDATA2406}:
+[2025-03-26 23:34:49] Debug: Attempting to remove virtual environment
+[2025-03-26 23:34:49] Debug: Machine Name: CA1MDLIDATA2406
+[2025-03-26 23:34:49] Debug: Provided VenvPath: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:34:49] Debug: Expanded Path: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:34:49] Successfully removed virtual environment at 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:34:49] True
+[2025-03-26 23:34:53] Detailed Cleanup Result for {CA1MDLIDATA2408}:
+[2025-03-26 23:34:53] Debug: Attempting to remove virtual environment
+[2025-03-26 23:34:53] Debug: Machine Name: CA1MDLIDATA2408
+[2025-03-26 23:34:53] Debug: Provided VenvPath: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:34:53] Debug: Expanded Path: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:34:53] Successfully removed virtual environment at 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:34:53] True
+[2025-03-26 23:34:53] Virtual environment cleanup completed
+[2025-03-26 23:34:53] Virtual environment cleanup process completed
+[2025-03-26 23:40:12] === Starting distributed processing setup ===
+[2025-03-26 23:40:12] Target machines: CA1MDLIDATA2406, CA1MDLIDATA2408
+[2025-03-26 23:40:12] Setting up Python environments on target machines...
+[2025-03-26 23:40:12] Starting Python setup on CA1MDLIDATA2406
+[2025-03-26 23:40:12] Copied requirements file to CA1MDLIDATA2406
+[2025-03-26 23:40:13] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-26 23:40:49] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-26 23:40:49] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-26 23:40:49] Starting Python setup on CA1MDLIDATA2408
+[2025-03-26 23:40:49] Copied requirements file to CA1MDLIDATA2408
+[2025-03-26 23:40:49] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-26 23:41:26] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-26 23:41:26] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-26 23:41:26] Copying FileA and FolderB to destination path on machines...
+[2025-03-26 23:41:26] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-26 23:41:27] 
+[2025-03-26 23:41:27] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-03-26 23:41:27] Robocopy completed with exit code: 1
+[2025-03-26 23:41:27] Completed copying to CA1MDLIDATA2406 at \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-26 23:41:27] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-26 23:41:28] 
+[2025-03-26 23:41:28] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-03-26 23:41:28] Robocopy completed with exit code: 1
+[2025-03-26 23:41:28] Completed copying to CA1MDLIDATA2408 at \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-26 23:41:28] Distributing FolderC subfolders across machines...
+[2025-03-26 23:41:28] Distributing 2 subfolders from FolderC across 2 machines
+[2025-03-26 23:41:28] Ensuring remote directory exists on CA1MDLIDATA2406...
+[2025-03-26 23:41:28] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-03-26 23:41:28] 
+[2025-03-26 23:41:28] Copying folder rrscc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part1\rrscc to CA1MDLIDATA2406
+[2025-03-26 23:41:29] Successfully copied folder rrscc to CA1MDLIDATA2406
+[2025-03-26 23:41:29] Ensuring remote directory exists on CA1MDLIDATA2408...
+[2025-03-26 23:41:29] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-03-26 23:41:30] 
+[2025-03-26 23:41:30] Copying folder fkksdmkdc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part2\fkksdmkdc to CA1MDLIDATA2408
+[2025-03-26 23:41:31] Successfully copied folder fkksdmkdc to CA1MDLIDATA2408
+[2025-03-26 23:41:31] Executing script on machines...
+[2025-03-26 23:41:31] Copied script and config to CA1MDLIDATA2406
+[2025-03-26 23:41:31] Copied script and config to CA1MDLIDATA2408
+[2025-03-26 23:46:33] Result from CA1MDLIDATA2406: Script executed successfully on CA1MDLIDATA2406
+[2025-03-26 23:46:33] Result from CA1MDLIDATA2408: Script executed successfully on CA1MDLIDATA2408
+[2025-03-26 23:46:33] Distributed processing completed
+[2025-03-26 23:46:33] Cleaning up background jobs
+[2025-03-26 23:46:33] Attempting to remove virtual environment
+[2025-03-26 23:46:33] Base Directory: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp'
+[2025-03-26 23:46:33] VenvDir Name: 'venv'
+[2025-03-26 23:46:33] Full VenvPath: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:46:33] Virtual environment path found: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:46:33] Starting virtual environment cleanup...
+[2025-03-26 23:46:33] Virtual Environment Path: D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv
+[2025-03-26 23:46:38] Detailed Cleanup Result for {CA1MDLIDATA2406}:
+[2025-03-26 23:46:38] Debug: Attempting to remove virtual environment
+[2025-03-26 23:46:38] Debug: Machine Name: CA1MDLIDATA2406
+[2025-03-26 23:46:38] Debug: Provided VenvPath: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:46:38] Debug: Expanded Path: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:46:38] Successfully removed virtual environment at 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:46:38] True
+[2025-03-26 23:46:43] Detailed Cleanup Result for {CA1MDLIDATA2408}:
+[2025-03-26 23:46:43] Debug: Attempting to remove virtual environment
+[2025-03-26 23:46:43] Debug: Machine Name: CA1MDLIDATA2408
+[2025-03-26 23:46:43] Debug: Provided VenvPath: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:46:43] Debug: Expanded Path: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:46:43] Successfully removed virtual environment at 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv'
+[2025-03-26 23:46:43] True
+[2025-03-26 23:46:43] Virtual environment cleanup completed
+[2025-03-26 23:46:43] Virtual environment cleanup process completed
+[2025-03-30 23:52:41] === Starting distributed processing setup ===
+[2025-03-30 23:52:41] Target machines: CA1MDLIDATA2406, CA1MDLIDATA2408
+[2025-03-30 23:52:41] Setting up Python environments on target machines...
+[2025-03-30 23:52:41] Starting Python setup on CA1MDLIDATA2406
+[2025-03-30 23:52:41] Copied requirements file to CA1MDLIDATA2406
+[2025-03-30 23:52:42] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-30 23:53:19] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-30 23:53:19] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-30 23:53:19] Starting Python setup on CA1MDLIDATA2408
+[2025-03-30 23:53:19] Copied requirements file to CA1MDLIDATA2408
+[2025-03-30 23:53:19] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-30 23:53:57] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-30 23:53:57] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-30 23:53:57] Copying FileA and FolderB to destination path on machines...
+[2025-03-30 23:53:57] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-30 23:53:57] 
+[2025-03-30 23:53:57] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-03-30 23:53:57] Robocopy completed with exit code: 0
+[2025-03-30 23:53:57] Completed copying to CA1MDLIDATA2406 at \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-30 23:53:57] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-30 23:53:58] 
+[2025-03-30 23:53:58] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-03-30 23:53:58] Robocopy completed with exit code: 0
+[2025-03-30 23:53:58] Completed copying to CA1MDLIDATA2408 at \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-30 23:53:58] Distributing FolderC subfolders across machines...
+[2025-03-30 23:53:58] Distributing 2 subfolders from FolderC across 2 machines
+[2025-03-30 23:53:58] Ensuring remote directory exists on CA1MDLIDATA2406...
+[2025-03-30 23:53:58] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-03-30 23:53:59] 
+[2025-03-30 23:53:59] Copying folder rrscc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part1\rrscc to CA1MDLIDATA2406
+[2025-03-30 23:54:00] Successfully copied folder rrscc to CA1MDLIDATA2406
+[2025-03-30 23:54:00] Ensuring remote directory exists on CA1MDLIDATA2408...
+[2025-03-30 23:54:00] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-03-30 23:54:00] 
+[2025-03-30 23:54:00] Copying folder fkksdmkdc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part2\fkksdmkdc to CA1MDLIDATA2408
+[2025-03-30 23:54:01] Successfully copied folder fkksdmkdc to CA1MDLIDATA2408
+[2025-03-30 23:54:01] Executing script on machines...
+[2025-03-30 23:54:01] Copied script and config to CA1MDLIDATA2406
+[2025-03-30 23:54:01] Copied script and config to CA1MDLIDATA2408
+[2025-03-30 23:59:04] Result from CA1MDLIDATA2406: Script executed successfully on CA1MDLIDATA2406
+[2025-03-30 23:59:04] Result from CA1MDLIDATA2408: Script executed successfully on CA1MDLIDATA2408
+[2025-03-30 23:59:04] Distributed processing completed
+[2025-03-30 23:59:04] Cleaning up background jobs
+[2025-03-30 23:59:04] Attempting to remove virtual environment
+[2025-03-30 23:59:04] Base Directory: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\${tempDirName}'
+[2025-03-30 23:59:04] VenvDir Name: 'venv'
+[2025-03-30 23:59:04] Full VenvPath: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\${tempDirName}\venv'
+[2025-03-30 23:59:04] No virtual environment found in the following locations:
+[2025-03-30 23:59:04] Checked path: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\${tempDirName}\venv'
+[2025-03-30 23:59:04] Checked path: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\${tempDirName}\env'
+[2025-03-30 23:59:04] Checked path: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\${tempDirName}\.venv'
+[2025-03-30 23:59:04] Listing directory contents for further investigation:
+[2025-03-30 23:59:04] Virtual environment cleanup process completed
+[2025-03-30 23:59:04] Attempting to delete temporary directory: 'temp'
+[2025-03-30 23:59:08] Successfully deleted temporary directory
+[2025-03-31 00:04:04] === Starting distributed processing setup ===
+[2025-03-31 00:04:04] Target machines: CA1MDLIDATA2406, CA1MDLIDATA2408
+[2025-03-31 00:04:04] Setting up Python environments on target machines...
+[2025-03-31 00:04:04] Starting Python setup on CA1MDLIDATA2406
+[2025-03-31 00:04:04] Copied requirements file to CA1MDLIDATA2406
+[2025-03-31 00:04:05] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-31 00:04:46] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-31 00:04:46] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-31 00:04:46] Starting Python setup on CA1MDLIDATA2408
+[2025-03-31 00:04:46] Created directory: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp
+[2025-03-31 00:04:46] Copied requirements file to CA1MDLIDATA2408
+[2025-03-31 00:04:47] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-31 00:05:24] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-31 00:05:24] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-31 00:05:24] Copying FileA and FolderB to destination path on machines...
+[2025-03-31 00:05:24] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-31 00:05:25] 
+[2025-03-31 00:05:25] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-03-31 00:05:25] Robocopy completed with exit code: 0
+[2025-03-31 00:05:25] Completed copying to CA1MDLIDATA2406 at \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-31 00:05:25] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-31 00:05:25] 
+[2025-03-31 00:05:25] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-03-31 00:05:25] Robocopy completed with exit code: 1
+[2025-03-31 00:05:25] Completed copying to CA1MDLIDATA2408 at \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-31 00:05:25] Distributing FolderC subfolders across machines...
+[2025-03-31 00:05:26] Distributing 2 subfolders from FolderC across 2 machines
+[2025-03-31 00:05:26] Ensuring remote directory exists on CA1MDLIDATA2406...
+[2025-03-31 00:05:26] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-03-31 00:05:26] 
+[2025-03-31 00:05:26] Copying folder rrscc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part1\rrscc to CA1MDLIDATA2406
+[2025-03-31 00:05:27] Successfully copied folder rrscc to CA1MDLIDATA2406
+[2025-03-31 00:05:27] Ensuring remote directory exists on CA1MDLIDATA2408...
+[2025-03-31 00:05:27] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-03-31 00:05:28] 
+[2025-03-31 00:05:28] Copying folder fkksdmkdc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part2\fkksdmkdc to CA1MDLIDATA2408
+[2025-03-31 00:05:29] Successfully copied folder fkksdmkdc to CA1MDLIDATA2408
+[2025-03-31 00:05:29] Executing script on machines...
+[2025-03-31 00:05:29] Copied script and config to CA1MDLIDATA2406
+[2025-03-31 00:05:29] Copied script and config to CA1MDLIDATA2408
+[2025-03-31 00:05:41] Result from CA1MDLIDATA2406: Script executed successfully on CA1MDLIDATA2406
+[2025-03-31 00:05:41] Result from CA1MDLIDATA2408: Script executed successfully on CA1MDLIDATA2408
+[2025-03-31 00:05:41] Distributed processing completed
+[2025-03-31 00:05:41] Cleaning up background jobs
+[2025-03-31 00:05:41] Attempting to remove the entire local temp directory
+[2025-03-31 00:05:41] Directory to remove: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp'
+[2025-03-31 00:05:41] Directory found, proceeding with deletion: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp'
+[2025-03-31 00:05:45] Successfully deleted directory: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp'
+[2025-03-31 00:05:45] Directory cleanup process completed
+[2025-03-31 00:09:54] === Starting distributed processing setup ===
+[2025-03-31 00:09:54] Target machines: CA1MDLIDATA2406, CA1MDLIDATA2408
+[2025-03-31 00:09:54] Setting up Python environments on target machines...
+[2025-03-31 00:09:54] Starting Python setup on CA1MDLIDATA2406
+[2025-03-31 00:09:54] Copied requirements file to CA1MDLIDATA2406
+[2025-03-31 00:09:55] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-03-31 00:10:36] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-31 00:10:36] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-03-31 00:10:36] Starting Python setup on CA1MDLIDATA2408
+[2025-03-31 00:10:36] Created directory: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp
+[2025-03-31 00:10:36] Copied requirements file to CA1MDLIDATA2408
+[2025-03-31 00:10:37] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-03-31 00:11:14] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-03-31 00:11:14] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-03-31 00:11:14] Copying FileA and FolderB to destination path on machines...
+[2025-03-31 00:11:14] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-31 00:11:15] 
+[2025-03-31 00:11:15] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-03-31 00:11:15] Robocopy completed with exit code: 0
+[2025-03-31 00:11:15] Completed copying to CA1MDLIDATA2406 at \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-31 00:11:15] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-31 00:11:15] 
+[2025-03-31 00:11:15] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-03-31 00:11:15] Robocopy completed with exit code: 1
+[2025-03-31 00:11:15] Completed copying to CA1MDLIDATA2408 at \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-03-31 00:11:15] Distributing FolderC subfolders across machines...
+[2025-03-31 00:11:16] Distributing 2 subfolders from FolderC across 2 machines
+[2025-03-31 00:11:16] Ensuring remote directory exists on CA1MDLIDATA2406...
+[2025-03-31 00:11:16] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-03-31 00:11:16] 
+[2025-03-31 00:11:16] Copying folder rrscc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part1\rrscc to CA1MDLIDATA2406
+[2025-03-31 00:11:17] Successfully copied folder rrscc to CA1MDLIDATA2406
+[2025-03-31 00:11:17] Ensuring remote directory exists on CA1MDLIDATA2408...
+[2025-03-31 00:11:17] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-03-31 00:11:18] 
+[2025-03-31 00:11:18] Copying folder fkksdmkdc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part2\fkksdmkdc to CA1MDLIDATA2408
+[2025-03-31 00:11:19] Successfully copied folder fkksdmkdc to CA1MDLIDATA2408
+[2025-03-31 00:11:19] Executing script on machines...
+[2025-03-31 00:11:19] Copied script and config to CA1MDLIDATA2406
+[2025-03-31 00:11:19] Copied script and config to CA1MDLIDATA2408
+[2025-03-31 00:11:31] Result from CA1MDLIDATA2406: Script executed successfully on CA1MDLIDATA2406
+[2025-03-31 00:11:31] Result from CA1MDLIDATA2408: Script executed successfully on CA1MDLIDATA2408
+[2025-03-31 00:11:31] Distributed processing completed
+[2025-03-31 00:11:31] Cleaning up background jobs
+[2025-03-31 00:11:31] Attempting to remove the entire local temp directory from all machines
+[2025-03-31 00:11:31] Directory to remove: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp'
+[2025-03-31 00:11:31] Removing directory from machine: CA1MDLIDATA2406
+[2025-03-31 00:11:36] Successfully deleted directory on machine CA1MDLIDATA2406
+[2025-03-31 00:11:36] Removing directory from machine: CA1MDLIDATA2408
+[2025-03-31 00:11:40] Successfully deleted directory on local machine
+[2025-03-31 00:11:40] Directory cleanup process completed
+[2025-04-02 01:32:36] === Starting distributed processing setup ===
+[2025-04-02 01:32:36] Target machines: CA1MDLIDATA2406, CA1MDLIDATA2408
+[2025-04-02 01:32:36] Setting up Python environments on target machines...
+[2025-04-02 01:32:36] Starting Python setup on CA1MDLIDATA2406
+[2025-04-02 01:32:36] Created directory: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp
+[2025-04-02 01:32:36] Copied requirements file to CA1MDLIDATA2406
+[2025-04-02 01:32:37] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-04-02 01:33:15] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-04-02 01:33:15] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-04-02 01:33:15] Starting Python setup on CA1MDLIDATA2408
+[2025-04-02 01:33:15] Created directory: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp
+[2025-04-02 01:33:15] Copied requirements file to CA1MDLIDATA2408
+[2025-04-02 01:33:16] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-04-02 01:33:53] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-04-02 01:33:53] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-04-02 01:33:53] Copying FileA and FolderB to destination path on machines...
+[2025-04-02 01:33:53] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-04-02 01:33:54] 
+[2025-04-02 01:33:54] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-04-02 01:33:54] Robocopy completed with exit code: 1
+[2025-04-02 01:33:54] Completed copying to CA1MDLIDATA2406 at \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-04-02 01:33:54] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-04-02 01:33:54] 
+[2025-04-02 01:33:54] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-04-02 01:33:54] Robocopy completed with exit code: 1
+[2025-04-02 01:33:54] Completed copying to CA1MDLIDATA2408 at \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-04-02 01:33:54] Distributing FolderC subfolders across machines...
+[2025-04-02 01:33:54] Distributing 2 subfolders from FolderC across 2 machines
+[2025-04-02 01:33:54] Ensuring remote directory exists on CA1MDLIDATA2406...
+[2025-04-02 01:33:54] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-04-02 01:33:55] 
+[2025-04-02 01:33:55] Copying folder rrscc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part1\rrscc to CA1MDLIDATA2406
+[2025-04-02 01:33:56] Successfully copied folder rrscc to CA1MDLIDATA2406
+[2025-04-02 01:33:56] Ensuring remote directory exists on CA1MDLIDATA2408...
+[2025-04-02 01:33:56] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-04-02 01:33:57] 
+[2025-04-02 01:33:57] Copying folder fkksdmkdc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part2\fkksdmkdc to CA1MDLIDATA2408
+[2025-04-02 01:33:58] Successfully copied folder fkksdmkdc to CA1MDLIDATA2408
+[2025-04-02 01:33:58] Executing script on machines...
+[2025-04-02 01:33:58] Copied script and config to CA1MDLIDATA2406
+[2025-04-02 01:33:58] Copied script and config to CA1MDLIDATA2408
+[2025-04-02 01:34:10] Result from CA1MDLIDATA2406: Script executed successfully on CA1MDLIDATA2406
+[2025-04-02 01:34:10] Result from CA1MDLIDATA2408: Script executed successfully on CA1MDLIDATA2408
+[2025-04-02 01:34:10] Distributed processing completed
+[2025-04-02 01:34:10] Cleaning up background jobs
+[2025-04-02 01:34:10] Attempting to remove the entire local temp directory from all machines
+[2025-04-02 01:34:10] Directory to remove: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp'
+[2025-04-02 01:34:10] Removing directory from machine: CA1MDLIDATA2406
+[2025-04-02 01:34:15] Successfully deleted directory on machine CA1MDLIDATA2406
+[2025-04-02 01:34:15] Removing directory from machine: CA1MDLIDATA2408
+[2025-04-02 01:34:19] Successfully deleted directory on local machine
+[2025-04-02 01:34:19] Directory cleanup process completed
+[2025-04-20 22:56:44] === Starting distributed processing setup ===
+[2025-04-20 22:56:44] Target machines: CA1MDLIDATA2406, CA1MDLIDATA2408
+[2025-04-20 22:56:44] Setting up Python environments on target machines...
+[2025-04-20 22:56:44] Starting Python setup on CA1MDLIDATA2406
+[2025-04-20 22:56:44] Created directory: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp
+[2025-04-20 22:56:44] Copied requirements file to CA1MDLIDATA2406
+[2025-04-20 22:56:45] Python already installed on CA1MDLIDATA2406: Python 3.11.0
+[2025-04-20 22:57:23] Virtual environment setup on CA1MDLIDATA2406: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-04-20 22:57:23] Python setup on CA1MDLIDATA2406 completed with result: True
+[2025-04-20 22:57:23] Starting Python setup on CA1MDLIDATA2408
+[2025-04-20 22:57:23] Created directory: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp
+[2025-04-20 22:57:23] Copied requirements file to CA1MDLIDATA2408
+[2025-04-20 22:57:23] Python already installed on CA1MDLIDATA2408: Python 3.11.0
+[2025-04-20 22:58:01] Virtual environment setup on CA1MDLIDATA2408: Requirement already satisfied: pip in d:\rishin\framework_for_uni_py\setup_work\temp\venv\lib\site-packages (22.3) Collecting pip   Using cached pip-25.0.1-py3-none-any.whl (1.8 MB) Collecting configparser==7.1.0   Using cached configparser-7.1.0-py3-none-any.whl (17 kB) Collecting numpy==2.2.3   Using cached numpy-2.2.3-cp311-cp311-win_amd64.whl (12.9 MB) Collecting pandas==2.2.3   Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB) Collecting python-dateutil==2.9.0.post0   Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB) Collecting pytz==2025.1   Using cached pytz-2025.1-py2.py3-none-any.whl (507 kB) Collecting six==1.17.0   Using cached six-1.17.0-py2.py3-none-any.whl (11 kB) Collecting tzdata==2025.1   Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB) Collecting portalocker==3.1.1   Using cached portalocker-3.1.1-py3-none-any.whl (19 kB) Collecting pywin32>=226   Using cached pywin32-310-cp311-cp311-win_amd64.whl (9.5 MB) Installing collected packages: pywin32, pytz, tzdata, six, portalocker, numpy, configparser, python-dateutil, pandas Successfully installed configparser-7.1.0 numpy-2.2.3 pandas-2.2.3 portalocker-3.1.1 python-dateutil-2.9.0.post0 pytz-2025.1 pywin32-310 six-1.17.0 tzdata-2025.1 Virtual environment created at D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp\venv. Test import: Pandas version: 2.2.3
+[2025-04-20 22:58:01] Python setup on CA1MDLIDATA2408 completed with result: True
+[2025-04-20 22:58:01] Copying FileA and FolderB to destination path on machines...
+[2025-04-20 22:58:01] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-04-20 22:58:02] 
+[2025-04-20 22:58:02] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-04-20 22:58:02] Robocopy completed with exit code: 1
+[2025-04-20 22:58:02] Completed copying to CA1MDLIDATA2406 at \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-04-20 22:58:02] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-04-20 22:58:03] 
+[2025-04-20 22:58:03] Copying \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\entirefolderB to \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path\entirefolderB
+[2025-04-20 22:58:03] Robocopy completed with exit code: 1
+[2025-04-20 22:58:03] Completed copying to CA1MDLIDATA2408 at \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path
+[2025-04-20 22:58:03] Distributing FolderC subfolders across machines...
+[2025-04-20 22:58:03] Distributing 2 subfolders from FolderC across 2 machines
+[2025-04-20 22:58:03] Ensuring remote directory exists on CA1MDLIDATA2406...
+[2025-04-20 22:58:03] Ensuring directory exists on CA1MDLIDATA2406: \\CA1MDLIDATA2406\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-04-20 22:58:04] 
+[2025-04-20 22:58:04] Copying folder rrscc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part1\rrscc to CA1MDLIDATA2406
+[2025-04-20 22:58:05] Successfully copied folder rrscc to CA1MDLIDATA2406
+[2025-04-20 22:58:05] Ensuring remote directory exists on CA1MDLIDATA2408...
+[2025-04-20 22:58:05] Ensuring directory exists on CA1MDLIDATA2408: \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\temp\copied_path_inp
+[2025-04-20 22:58:05] 
+[2025-04-20 22:58:05] Copying folder fkksdmkdc from \\CA1MDLIDATA2408\D$\RISHIN\framework_for_uni_py\SETUP_WORK\folderC\part2\fkksdmkdc to CA1MDLIDATA2408
+[2025-04-20 22:58:06] Successfully copied folder fkksdmkdc to CA1MDLIDATA2408
+[2025-04-20 22:58:06] Executing script on machines...
+[2025-04-20 22:58:06] Copied script and config to CA1MDLIDATA2406
+[2025-04-20 22:58:06] Copied script and config to CA1MDLIDATA2408
+[2025-04-20 22:58:19] Result from CA1MDLIDATA2406: Script executed successfully on CA1MDLIDATA2406
+[2025-04-20 22:58:19] Result from CA1MDLIDATA2408: Script executed successfully on CA1MDLIDATA2408
+[2025-04-20 22:58:19] Distributed processing completed
+[2025-04-20 22:58:19] Cleaning up background jobs
+[2025-04-20 22:58:19] Attempting to remove the entire local temp directory from all machines
+[2025-04-20 22:58:19] Directory to remove: 'D:\RISHIN\framework_for_uni_py\SETUP_WORK\temp'
+[2025-04-20 22:58:19] Removing directory from machine: CA1MDLIDATA2406
+[2025-04-20 22:58:23] Successfully deleted directory on machine CA1MDLIDATA2406
+[2025-04-20 22:58:23] Removing directory from machine: CA1MDLIDATA2408
+[2025-04-20 22:58:28] Successfully deleted directory on local machine
+[2025-04-20 22:58:28] Directory cleanup process completed
