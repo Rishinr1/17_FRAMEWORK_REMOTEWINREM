@@ -5,3 +5,6 @@ Update 3/26/2025 SETUP_4 /SETUP_4_stable is stable now .  Now will work on SETUP
 Update ----
 
 3/26/2025 SETUP_5.ps1 is stable now..modified to run with single config file for  both powershell and the python script .
+
+
+SETUP_6_1.ps1 is latest
